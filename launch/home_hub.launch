@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Load Modules -->
+    <!--<rosparam command="load" ns="home_hub" file="$(find qurrent)/launch/params.yaml"/>-->
+    <node name="home_hub" pkg="home_hub" type="primary.py" output="screen" />
+</launch>
